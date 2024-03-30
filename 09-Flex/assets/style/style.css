@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.card {
+  width: 200px;
+  border: 1px solid blue;
+  overflow: hidden;
+}
+
+.card > img {
+  width: 200px;
+}
+
+.text {
+  padding: 10px;
+
+}
+h4 {
+  margin-bottom: 10px;
+}
+
+.text > p {
+  margin-bottom: 10px;
+}
