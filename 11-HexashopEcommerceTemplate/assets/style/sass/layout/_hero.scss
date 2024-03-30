@@ -1,0 +1,99 @@
+#hero {
+    border-bottom: 0.3rem dotted #eee;
+    color: #fff;
+    button {
+        border: 0.1rem solid #fff;
+        background-color: transparent;
+        padding: 1.2rem 2.5rem;
+        color: #fff;
+    }
+    h1 {
+        font-size: 5.2rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 2.4rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+    }
+    p {
+        font-size: 1.6rem;
+        line-height: 2.5rem;
+        font-style: italic;
+        font-weight: 400;
+        padding-bottom: 3rem;
+    }
+    .heroCards {
+        padding: 6rem 1.5rem 4.5rem 1.5rem;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: "grid1 grid1 grid2 grid3"
+        "grid1 grid1 grid4 grid5";
+        grid-gap: 3rem;
+        height: 70rem;
+        .grid {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            // gap: 1.5rem;
+            justify-content: center;
+            align-items: center;
+    
+        }
+    
+        .grid1 {
+            grid-area: grid1;
+            background: url("./../../../../assets/images/left-banner-image.jpg") no-repeat;
+            background-size: cover;
+        }
+    
+        .grid2 {
+            grid-area: grid2;
+            background: url("./../../../../assets/images/baner-right-image-01.jpg") no-repeat;
+            background-size: cover;
+        }
+    
+        .grid3 {
+            grid-area: grid3;
+            background: url("./../../../../assets/images/baner-right-image-02.jpg") no-repeat;
+            background-size: cover;
+        }
+    
+        .grid4 {
+            grid-area: grid4;
+            background: url("./../../../../assets/images/baner-right-image-03.jpg") no-repeat;
+            background-size: cover;
+        }
+    
+        .grid5 {
+            grid-area: grid5;
+            background: url("./../../../../assets/images/baner-right-image-04.jpg") no-repeat;
+            background-size: cover;
+        }
+    
+    }
+
+    
+}
+
+@media screen and (max-width:992px) {
+    .heroCards {
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-areas: "grid1 grid1"
+        " grid2 grid3"
+        "grid4 grid5";
+        // height: 10rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .heroCards {
+        grid-template-columns: repeat(1, 3fr);
+        grid-template-areas: "grid1"
+        "grid2"
+        "grid3"
+        "grid4"
+        "grid5";
+        // height: 10rem;
+    }
+}
