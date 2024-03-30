@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,button {
+    background-image: linear-gradient(to right, aqua,rgb(103, 15, 186));
+    border: none;
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin: 100px auto;
+}
+
+h1 {
+   text-align: center;
+}
+
+input, button {
+    width: 95%;
+    height: 32px;
+}
+
+form {
+    padding: 30px;
+}
+
+p {
+    text-align: center;
+    margin-top: 5px;
+}
