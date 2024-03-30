@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    width: 30%;
+    height: 95%;
+    border: 10px solid black;
+    background: url(../images/Screenshot\ 2023-12-05\ 233656.png) no-repeat;
+    overflow: scroll;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
