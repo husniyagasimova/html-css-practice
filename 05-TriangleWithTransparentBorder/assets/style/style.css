@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1 {
+    border-top: 100px solid blue;
+    border-right: 100px solid blue;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid transparent;
+}
+.div2 {
+    margin: 0 30px;
+    border-top: 100px solid blue;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid blue;
+}
+.div3 {
+    margin: 0 20px;
+    border-top: 100px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 100px solid blue;
+    border-left: 100px solid transparent;
+}
+.div4 {
+    margin: 0 20px;
+    border-top: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    border-left: 100px solid blue;
+}
