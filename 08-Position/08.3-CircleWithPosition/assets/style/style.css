@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  width: 130px;
+  height: 130px;
+  border: 5px solid;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  gap: 10px;
+}
+
+.blue {
+  border-color: blue;
+  position: relative;
+  right: 140px;
+
+
+}
+
+.black {
+  border-color: black;
+  position: absolute;
+  z-index: 5;
+}
+
+.red {
+  border-color: red;
+  position: relative;
+}
+
+.yellow {
+  border-color: rgb(252, 211, 6);
+  position: absolute;
+  z-index: 2;
+  bottom: 170px;
+  left: 430px;
+}
+
+.green {
+  border-color: green;
+  position: absolute;
+  z-index: 2;
+  bottom: 170px;
+  right: 570px;
+}
