@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+#hero {
+  height: 50vh;
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 100px 0 150px 0;
+}
+.btn-outline-secondary {
+  border-color: #fff;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #212529 !important;
+  padding: 10px 0 50px 0;
+}
+
+.content {
+  width: 40%;
+}
+
+.content p {
+  color: #aaa;
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  color: white;
+  font-weight: 100;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.list .white {
+  color: white;
+}
+
+.list a {
+  text-decoration: none;
+  color: #aaaa;
+}
+#title {
+  padding: 40px 0;
+}
+
+.icon {
+  background-color: rgb(13, 30, 217);
+  border-radius: 8px;
+  width: max-content;
+  padding: 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.col-4 {
+  margin: 60px 0;
+}
+
+.col-4 a {
+  text-decoration: none;
+}
+.col-4 a i {
+  margin-left: 3px;
+}
+
+.col-4 h2 {
+  color: black;
+  font-weight: 700;
+}
+
+.icon i {
+  color: white;
+  font-size: 25px;
+}
+
+#card {
+  background-color: whitesmoke;
+  border: 1px solid  #cdcccc;
+  padding: 60px 0;
+}
+
+#card h2 {
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+#card p {
+  text-align: center;
+}
+
+.h2 {
+  font-size: 60px;
+}
+
+.h2 sub {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+
+.grow {
+  padding: 30px !important;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid  #cdcccc;
+  border-radius: 8px;
+  width: 30%;
+}
+
+.grow > h2 {
+  text-align: start !important;
+  padding-left: 20px;
+}
+.grow > h3 {
+  padding-left: 20px;
+}
+
+.grow > ul > li {
+  margin-bottom: 15px;
+}
+.grow > ul > li i {
+  margin-right: 13px;
+  font-size: 10px;
+}
+.fa-check {
+  color: blue;
+}
+
+.grow button {
+  border: 1px solid blue;
+  border-radius: 5px;
+  background-color: transparent;
+  color: blue;
+  padding: 7px 0;
+  transition: .5s;
+  margin-bottom: 10px;
+}
+.grow button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.blue {
+  background-color: blue !important;
+  color: #fff !important;
+}
+
+#customer {
+  padding: 60px;
+  border-bottom: 1px solid #aaa;
+}
+
+.head {
+  font-size: 32px !important;
+  font-weight: 600;
+  color: black !important;
+}
+
+.head, .p {
+  text-align: center;
+}
+.feedback {
+  display: flex;
+  gap: 10px;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid  #cdcccc;
+  width: 45%;
+  border-radius: 8px;
+  padding: 35px 20px 20px 20px;
+}
+
+.feedback p {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.feedback span {
+  color: #aaa;
+}
+
+.feedback .icon {
+  width: 20px;
+  height: 20px;
+}
+
+#touch {
+  background-color: whitesmoke;
+  padding: 60px 0;
+}
+#touch .icon {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+
+}
+
+input, textarea {
+  padding: 20px;
+  width: 40%;
+  border: 1px solid red;
+  border-radius: 8px;
+}
+textarea {
+  resize: vertical;
+}
+
+form button {
+  width: 40%;
+  color: white;
+  background-color: rgb(68, 68, 243);
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+}
+
+#footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 40px 0;
+  text-align: center;
+}
+ #footer p {
+  margin-top: 18px;
+ }
