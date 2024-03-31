@@ -39,12 +39,47 @@
        
             .card {
                 .post {
+                    transition: bottom .1s !important;
+                    position: relative;
+
                     width: calc(1140px / 3);
                     height: calc(1140px / 3);
                     background-size: cover;
                     background-repeat: no-repeat;
                     background-position: center;
+                    .animations {
+                        .box {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 5rem;
+                            height: 5rem;
+                            background-color: #fff;
+                            position: absolute;
+                            bottom: -2rem;
+                            visibility: hidden;
+                            opacity: 0;
+                            font-size: 1.6rem;
+                        }
+                        .box1 {
+                            right: 7rem;
+                        }
+                        .box2 {
+                            right: 15.5rem;
+                        }
+                        .box3 {
+                            left: 7rem;
+                        }
+
+                       
                     
+                    }
+                    
+                }
+                .post:hover .box {
+                    bottom: 3.5rem;
+                    visibility: visible;
+                    opacity: 100%;
                 }
                 .post1 {
                     background-image: url("./../../../../assets/images/men-01.jpg");

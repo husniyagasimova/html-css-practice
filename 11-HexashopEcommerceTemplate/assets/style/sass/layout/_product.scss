@@ -1,10 +1,17 @@
 #product {
-    padding: 6rem 0;
+    padding: 7rem 0;
+    border-bottom: 0.3rem dotted #eee;
     button {
         border: 0.1rem solid #000;
         background-color: transparent;
         padding: 1.2rem 2.5rem;
         color: #000;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #000;
+        color: #fff ;
     }
     h3 {
         font-size: 2.4rem;
@@ -33,18 +40,18 @@
             grid-template-areas: "grid1 grid1 grid2 grid3"
             "grid1 grid1 grid4 grid5";
             gap: 2rem;
-            height: 60rem;
-
-            .grid {
-                background-repeat: no-repeat;
-                background-size: cover; span {
-                    color: #000;
-                    font-style: normal;
-                }
-            }
 
             .grid1 {
                 grid-area: grid1;
+                i {
+                    font-size: 4rem;
+                    margin-right: 1.5rem;
+                }
+                span {
+                    font-style: italic;
+                    color: #000;
+                    
+                }
             }
 
             .grid2 {
@@ -59,12 +66,14 @@
 
             .grid3 {
                 grid-area: grid3;
-                background: url("./../../../../assets/images/kid-01.jpg");
+                background: url("./../../../../assets/images/explore-image-01.jpg") no-repeat;
+               background-size: cover;
             }
 
             .grid4 {
                 grid-area: grid4;
-                background: url("./../../../../assets/images/kid-03.jpg");
+                background: url("./../../../../assets/images/explore-image-02.jpg") no-repeat;
+                background-size: cover;
             }
 
             .grid5 {
